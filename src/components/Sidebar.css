@@ -1,0 +1,20 @@
+.sidebar{
+    background-color: rgb(238, 238, 238);
+    padding: 2rem 0;
+    border-right: 1px solid black;
+}
+
+.sidebarNav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebarLink{
+    padding: 0.75rem 1.5rem;
+}
+
+.sidebarLink:hover{
+    color: rgb(112, 112, 112);
+    text-decoration: underline;
+}
