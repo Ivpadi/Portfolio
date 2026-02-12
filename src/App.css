@@ -1,9 +1,7 @@
 .app{
-  display: grid;
-  grid-template-rows: 64px 1fr;
-  grid-template-columns: 200px 1fr;
-  height: 100vh;
+  padding: 0;
   margin: 0 auto;
+  border: none;
 }
 
 .sidebar{
@@ -15,6 +13,7 @@
 .header{
   grid-column: 1 / -1;
   grid-row: 1;
+  justify-content: space-between;
 }
 
 .mainContent{
@@ -25,5 +24,9 @@
 }
 
 .restrictWidth{
-  width: 1000px;
+  max-width: 1000px;
+  margin-left:auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
 }

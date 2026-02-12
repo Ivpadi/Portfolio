@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div className='app'>
-        <div className='restrictWidth'>
           <Header></Header>
+        <div className='restrictWidth'>
           <Sidebar></Sidebar>
           <div className='mainContent'></div>
         </div>
