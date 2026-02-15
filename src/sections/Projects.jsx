@@ -1,3 +1,5 @@
+import './Sections.css';
+
 export default function Projects() {
 
     return (

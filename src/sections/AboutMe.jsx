@@ -1,3 +1,5 @@
+import './Sections.css';
+
 export default function AboutMe() {
 
     return (
@@ -9,6 +11,8 @@ export default function AboutMe() {
                     </h2>
                 </div>
             </div>
+            <p>I am a recent graduate of the University of Otago, where I completed my bachelors degree majoring in computer science. I have a keen interest in both web development and full stack programming, and have experience working with different tech stacks where my favourite languages include Java, C# and HTML</p>
+            <p>I am working on expanding and strengthening my knowledge by creating increasingly demanding projects that require self-study and experimentation. I hope to be able develop both programs and myself in a working environment rich with opportuinites.</p>
         </div>
     );
 }
