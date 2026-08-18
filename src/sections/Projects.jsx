@@ -16,7 +16,7 @@ export default function Projects() {
                     <img className="project-img" src="/Pissproject.png" alt="Alcohol Price Comparison"></img>
                     <div className="project-body">
                         <div className="project-header">
-                            <span className="project-name">The Piss Project</span>
+                            <span className="project-name">The Piss Project - In Progress</span>
                             <a className="project-link" href="https://github.com/Ivpadi/The-Piss-Project ">Github</a>
                         </div>
                         <p className="project-date">2026</p>

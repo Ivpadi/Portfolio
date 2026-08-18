@@ -158,10 +158,10 @@
 
 .project-img {
     width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
+    aspect-ratio: 17/9;
+    object-fit: fill;
     display: block;
-    background-color: var(--border);
+    background-color: var(--surface);
 }
 
 .project-body {
