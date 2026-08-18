@@ -1,0 +1,256 @@
+.pageContent {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.pageContent:first-of-type {
+    padding-top: 0;
+}
+
+.pageContent:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.pageContentHeader {
+    margin-bottom: 1rem;
+}
+
+.headerTitle-medium{
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-left: 3px solid var(--accent);
+    padding-left: 0.65rem;
+    scroll-margin-top: 5.5rem;
+}
+
+.pageContent p {
+    font-size: 0.98rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+
+
+
+
+.jobPanel {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.jobPanel:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.jobHeader {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.jobTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+}
+
+.jobDate {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.jobLocation {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+    margin-bottom: 0.7rem;
+}
+
+.jobResponsibilities {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.jobResponsibilities li {
+    position: relative;
+    padding-left: 1.1rem;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.jobResponsibilities li::before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+
+
+
+
+.relCoursework {
+    font-size: 0.92;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0 0 0.5rem 0;
+}
+
+
+.relCoursework b {
+    color: var(--text);
+    font-weight: 600;
+}
+
+
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+}
+
+.project-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--surface);
+}
+
+.project-card:hover {
+    border-color: var(--accent);
+}
+
+.project-featured {
+    grid-column: 1 / -1;
+    display: flex;
+    aspect-ratio: auto;
+}
+
+.project-featured .project-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-featured .project-img {
+    width: 50%;
+    height: auto;
+    flex-shrink: 0;
+    aspect-ratio: auto;
+}
+
+.project-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background-color: var(--border);
+}
+
+.project-body {
+    padding: 1rem 1.1rem 1.2rem;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.project-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.project-link {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--accent)
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-date {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0.2rem 0 0.6rem;
+}
+
+.project-desc {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0.6rem 0 0;
+}
+
+
+
+
+.contactBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.contactPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background-color: var(--surface);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.contactPanel:hover {
+    border-color: var(--accent);
+}
+
+.contactPanel-highlight {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+}
+
+.contactIcon {
+    width: 22px;
+    height: 22px;
+    color: var(--accent);
+}
+
+.contactTitle {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.contactDet {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
