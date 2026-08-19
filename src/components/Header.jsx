@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header className='header'>
             <div className='headerInner'>
-                <a className='headerName' href='http://localhost:5173/'><strong>Diego Olivera</strong></a>
+                <a className='headerName' href='https://ivpadi.github.io/Portfolio/'><strong>Diego Olivera</strong></a>
 
                 <nav className='headerLinks'>
                     <div className='headerLinks_list'>
