@@ -13,7 +13,7 @@ export default function Projects() {
             </div>
             <div className="projects-grid">
                 <div className="project-card project-featured">
-                    <img className="project-img" src="/Pissproject.png" alt="Alcohol Price Comparison"></img>
+                    <img className="project-img" src="Pissproject.png" alt="Alcohol Price Comparison"></img>
                     <div className="project-body">
                         <div className="project-header">
                             <span className="project-name">The Piss Project - In Progress</span>
@@ -45,7 +45,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img className="project-img" src="/DocAnalyzer.png" alt="Document Analyzer and Scanner"></img>
+                    <img className="project-img" src="DocAnalyzer.png" alt="Document Analyzer and Scanner"></img>
                     <div className="project-body">
                         <div className="project-header">
                             <span className="project-name">DocAnalyzer</span>
@@ -57,7 +57,7 @@ export default function Projects() {
                             <span className="chip chip-neutral"></span>
                             <span className="chip chip-neutral"></span>
                         </div>
-                        <p className="project-desc">DocAnalyzer is a project that was made in collaboration with four other students </p>
+                        <p className="project-desc">DocAnalyzer is a project that was made in collaboration with four other students that extracts text from images using OCR (Google Cloud Vision) and simplifies jargon using generative AI (Google Gemini)</p>
                     </div>
                 </div>
             </div>

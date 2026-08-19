@@ -23,7 +23,7 @@ export default function ContactMe() {
                 </a>
                 <a className='contactPanel' href='https://github.com/Ivpadi'>
                     <span className='contactTitle'><b>Github</b></span>
-                    <span className='contactDet'>link</span>
+                    <span className='contactDet'>github.com/Ivpadi</span>
                 </a>
             </div>
         </div>
