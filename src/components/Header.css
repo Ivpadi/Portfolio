@@ -5,7 +5,7 @@
 }
 
 .headerName:hover {
-    color: var(--text-muted);
+    color: green;
 }
 
 .headerLinks {

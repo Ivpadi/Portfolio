@@ -25,7 +25,7 @@ export default function Projects() {
                             <span className="chip chip-neutral"></span>
                             <span className="chip chip-neutral"></span>
                         </div>
-                        <p className="project-desc">The Piss Project is a website that compares the prices of different alcoholic drinks between the biggest retailers across NZ. It scrapes the websites of the biggest retailers for the drinks' information and stores it into a database. This data is then extracted and displayed on the website as product cards allowing the user to compare the prices between different drinks to find the best deal.</p>
+                        <p className="project-desc">The Piss Project is a full stack price comparison platform that aggregates the data of different alcoholic drinks between the biggest retailers across NZ. It scrapes the websites of the biggest retailers for the drinks' information, standardises it and stores it into a PostgreSQL database. This data is then extracted and displayed on the website as product cards allowing the user to compare the prices across multiple stores to find the best deal.</p>
                     </div>
                 </div>
                 <div className="project-card">
@@ -41,7 +41,7 @@ export default function Projects() {
                             <span className="chip chip-neutral"></span>
                             <span className="chip chip-neutral"></span>
                         </div>
-                        <p className="project-desc">This website is my portfolio which is design to be sleek and minimal while displaying various details about myself such as projects, education and experience.</p>
+                        <p className="project-desc">This website is my personal portfolio built with React to showcase my projects, technical skills, education and experience. My portfolio emphasises clean design and a smooth user experience while serving as a central hub for my work.</p>
                     </div>
                 </div>
                 <div className="project-card">
@@ -57,7 +57,7 @@ export default function Projects() {
                             <span className="chip chip-neutral"></span>
                             <span className="chip chip-neutral"></span>
                         </div>
-                        <p className="project-desc">DocAnalyzer is a project that was made in collaboration with four other students that extracts text from images using OCR (Google Cloud Vision) and simplifies jargon using generative AI (Google Gemini)</p>
+                        <p className="project-desc">DocAnalyzer is a full-stack web application developed in collaboration with four other students that transforms handwritten and printed documents into searchable digital notes using Google Cloud Vision OCR. The platform integrates Google Gemini to simplify technical jargon, while providing secure authentication, note management, document sharing and a responsive user interface built with Vue.js, Django REST framework and PostgreSQL.</p>
                     </div>
                 </div>
             </div>

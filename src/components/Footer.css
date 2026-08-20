@@ -1,0 +1,25 @@
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: var(--text-muted);
+}
+
+a {
+    padding: 0.4rem 0.8rem;
+    font-size: medium;
+    font-weight: 500;
+
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+a:hover {
+    color: var(--text);
+    text-decoration: none;
+}

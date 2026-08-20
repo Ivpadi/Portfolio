@@ -10,7 +10,7 @@
 
 .pageContent:last-of-type {
     border-bottom: none;
-    padding-bottom: 0;
+    padding-bottom: 6rem;
 }
 
 .pageContentHeader {
@@ -25,7 +25,7 @@
     color: var(--accent);
     border-left: 3px solid var(--accent);
     padding-left: 0.65rem;
-    scroll-margin-top: 5.5rem;
+    scroll-margin-top: 3.5rem;
 }
 
 .pageContent p {
@@ -227,6 +227,7 @@
 
 .contactPanel:hover {
     border-color: var(--accent);
+    text-decoration: none;
 }
 
 .contactPanel-highlight {
@@ -252,5 +253,9 @@
     font-size: 0.95rem;
     font-weight: 600;
     color: var(--text);
+}
+
+.contactDet:hover {
+    text-decoration: underline;
 }
 
